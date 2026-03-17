@@ -14,29 +14,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Booking Foto | Dthree Studio" />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Website resmi Dthree Studio | Palangka Raya" />
-    <title>Booking Foto | Dthree Studio</title>
+    <title>Booking Foto Online | DThree Studio Palangka Raya</title>
+    <meta name="description" content="Booking foto studio online di DThree Studio Palangka Raya. Isi formulir, pilih paket foto keluarga, wisuda, atau pre-wedding, dan langsung konfirmasi via WhatsApp.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dthreestudio.net/booking">
+
+    <meta property="og:url" content="https://dthreestudio.net/booking">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Booking Foto Online | DThree Studio Palangka Raya">
+    <meta property="og:description" content="Booking foto studio online di DThree Studio Palangka Raya. Isi formulir, pilih paket, dan langsung konfirmasi via WhatsApp.">
+    <meta property="og:image" content="https://dthreestudio.net/asset/banner.png">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="dthreestudio.net">
+    <meta property="twitter:url" content="https://dthreestudio.net/booking">
+    <meta name="twitter:title" content="Booking Foto Online | DThree Studio Palangka Raya">
+    <meta name="twitter:description" content="Booking foto studio online di DThree Studio Palangka Raya. Isi formulir, pilih paket, dan langsung konfirmasi via WhatsApp.">
+    <meta name="twitter:image" content="https://dthreestudio.net/asset/banner.png">
+
+    <meta name="theme-color" content="#634832">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="styleG.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="asset/icont.jpg" type="image/x-icon">
-
 </head>
 <body class="bg-[#FDFBF7] text-[#4A3728]">
     <div id="menu-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden transition-opacity duration-300 opacity-0"></div>
-    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-extrabold tracking-tighter text-[#634832]">DTHREE STUDIO</a>
+    
+    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]" id="main-header">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center" aria-label="Main navigation">
+            <a href="/" class="text-2xl font-extrabold tracking-tighter" style="color: #634832;" id="nav-logo">DTHREE STUDIO</a>
             
-            <div class="hidden md:flex space-x-8 font-semibold text-[#826A56]">
-                <a href="pricelist" class="hover:text-[#634832] transition">Price List</a>
-                <a href="galeri" class="hover:text-[#634832] transition">Gallery</a>
-                <a href="#contact" class="hover:text-[#634832] transition">Kontak</a>
+            <div class="hidden md:flex space-x-8 font-semibold" id="nav-links">
+                <a href="pricelist" class="nav-link transition" style="color: #634832;">Price List</a>
+                <a href="galeri" class="nav-link transition" style="color: #634832;">Gallery</a>
+                <a href="#contact" class="nav-link transition" style="color: #634832;">Kontak</a>
             </div>
 
-            <button id="menu-btn" class="md:hidden text-[#634832] text-2xl focus:outline-none transition-transform duration-300">
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none transition-transform duration-300" style="color: #634832;" aria-label="Toggle navigation menu">
                 <i id="menu-icon" class="fa-solid fa-bars"></i>
             </button>
         </nav>
@@ -47,22 +68,23 @@
             <a href="#contact" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Kontak</a>
             <hr class="border-[#EADDCA]">
             <div class="flex space-x-4 pt-2">
-                <a href="https://instagram.com/dthree_studio" class="text-[#826A56]"><i class="fa-brands fa-instagram text-xl"></i></a>
-                <a href="https://wa.me/6281322699098" class="text-[#826A56]"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="Instagram"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp text-xl"></i></a>
             </div>
         </div>
     </header>
 
-    <section class="pt-32 pb-12 bg-[#F5EFE6] text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3">Booking Foto</h2>
-        <p class="text-[#826A56] italic px-6">Jika mau booking, isi formulir di bawah ini, ya!</p>
+    <main>
+    <section class="page-header pt-32 pb-12 bg-[#F5EFE6] text-center grain-overlay relative">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3 relative z-10">Booking Foto</h1>
+        <p class="text-[#826A56] italic px-6 relative z-10">Jika mau booking, isi formulir di bawah ini, ya!</p>
     </section>
 
-    <section class="py-16 container mx-auto px-6 max-w-2xl">
+    <section class="py-16 container mx-auto px-6 max-w-2xl" data-animate="fade-up">
         <form id="bookingForm" class="bg-white p-8 md:p-12 rounded-[2.5rem] shadow-xl border border-[#EADDCA] space-y-6">
             
             <div>
-                <label class="block font-bold text-[#634832] mb-2">Tipe Foto Studio</label>
+                <label for="tipeStudio" class="block font-bold text-[#634832] mb-2">Tipe Foto Studio</label>
                 <select id="tipeStudio" class="w-full p-4 rounded-2xl appearance-none cursor-pointer" required onchange="updatePaket()">
                     <option value="">Pilih Tipe...</option>
                     <option value="family">Family/Graduate Indoor</option>
@@ -73,7 +95,7 @@
             </div>
 
             <div>
-                <label class="block font-bold text-[#634832] mb-2">Paket Studio</label>
+                <label for="paketStudio" class="block font-bold text-[#634832] mb-2">Paket Studio</label>
                 <select id="paketStudio" class="w-full p-4 rounded-2xl appearance-none cursor-pointer" required disabled>
                     <option value="">Pilih Tipe Foto Terlebih Dahulu</option>
                 </select>
@@ -81,37 +103,37 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                    <label class="block font-bold text-[#634832] mb-2">Nama Pelanggan</label>
+                    <label for="nama" class="block font-bold text-[#634832] mb-2">Nama Pelanggan</label>
                     <input type="text" id="nama" class="w-full p-4 rounded-2xl" placeholder="Nama Lengkap" required>
                 </div>
                 <div>
-                    <label class="block font-bold text-[#634832] mb-2">Nomor WhatsApp</label>
+                    <label for="whatsapp" class="block font-bold text-[#634832] mb-2">Nomor WhatsApp</label>
                     <input type="tel" id="whatsapp" class="w-full p-4 rounded-2xl" placeholder="0812345xxx" required>
                 </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                    <label class="block font-bold text-[#634832] mb-2">Tanggal Booking (Min H-1)</label>
+                    <label for="tanggal" class="block font-bold text-[#634832] mb-2">Tanggal Booking (Min H-1)</label>
                     <input type="date" id="tanggal" class="w-full p-4 rounded-2xl" required>
                 </div>
                 <div>
-                    <label class="block font-bold text-[#634832] mb-2">Jam Booking (UTC+7)</label>
+                    <label for="jam" class="block font-bold text-[#634832] mb-2">Jam Booking (UTC+7)</label>
                     <input type="time" id="jam" class="w-full p-4 rounded-2xl" required>
                 </div>
             </div>
 
             <div id="jumlahOrangContainer" class="hidden">
-                <label class="block font-bold text-[#634832] mb-2">Jumlah Anggota Keluarga</label>
+                <label for="jumlahOrang" class="block font-bold text-[#634832] mb-2">Jumlah Anggota Keluarga</label>
                 <input type="number" id="jumlahOrang" class="w-full p-4 rounded-2xl" placeholder="Jumlah orang">
             </div>
 
             <div>
-                <label class="block font-bold text-[#634832] mb-2">Catatan</label>
+                <label for="catatan" class="block font-bold text-[#634832] mb-2">Catatan</label>
                 <textarea id="catatan" class="w-full p-4 rounded-2xl h-32" placeholder="misal: lokasi foto, request tambahan, pertanyaan lain"></textarea>
             </div>
 
-            <button type="submit" class="w-full bg-[#634832] text-white py-5 rounded-2xl font-extrabold hover:bg-[#4A3728] transition-all transform hover:scale-[1.02] shadow-lg uppercase tracking-widest">
+            <button type="submit" class="magnetic-btn w-full bg-[#634832] text-white py-5 rounded-2xl font-extrabold hover:bg-[#4A3728] transition-all transform hover:scale-[1.02] shadow-lg uppercase tracking-widest">
                 Kirim Booking via WhatsApp
             </button>
         </form>
@@ -120,25 +142,25 @@
     <section id="contact" class="py-24 bg-[#FDFBF7]">
     <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         
-        <div>
-            <h3 class="text-4xl font-extrabold text-[#634832] mb-8">Hubungi Kami</h3>
+        <div data-animate="slide-left">
+            <h2 class="text-4xl font-extrabold text-[#634832] mb-8">Hubungi Kami</h2>
             <div class="space-y-6">
-                <a href="https://wa.me/6281322699098" class="flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Chat WhatsApp CS 1">
                     <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span class="font-bold text-xl">WhatsApp CS 1</span>
                 </a>
-                <a href="https://wa.me/6282352059520" class="flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://wa.me/6282352059520" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Chat WhatsApp CS 2">
                     <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span class="font-bold text-xl">WhatsApp CS 2</span>
                 </a>
-                <a href="https://instagram.com/dthree_studio" class="flex items-center space-x-6 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Instagram DThree Studio">
                     <i class="fa-brands fa-instagram text-3xl"></i>
                     <span class="font-bold text-xl">Instagram @dthree_studio</span>
                 </a>
             </div>
         </div>
 
-        <div>
+        <div data-animate="slide-right">
             <div class="mb-6 text-center md:text-left">
                 <h3 class="text-2xl font-extrabold text-[#634832] mb-1">Lokasi Studio Kami</h3>
                 <p class="text-[#826A56] font-medium italic">Buka setiap hari dari jam 07.30 - 20.30</p>
@@ -146,16 +168,17 @@
             <div class="h-80 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
                 <iframe 
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=DTHREE%20FOTO%20STUDIO%2C%20Jalan%20Rajawali%2C%20Palangka%2C%20Palangka%20Raya%20City%2C%20Central%20Kalimantan%2C%20Indonesia&maptype=roadmap" 
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Lokasi DThree Studio di Google Maps">
                 </iframe>
             </div>
             <div class="flex flex-col md:flex-row gap-4 m-4 justify-center">
-            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"><button class="bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
+            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><button class="magnetic-btn bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
             </div>
         </div>
 
     </div>
     </section>
+    </main>
 
     <footer class="py-12 border-t border-[#EADDCA] bg-white">
         <div class="container mx-auto px-6 text-center text-[#826A56]">
@@ -164,6 +187,9 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="animations.js?v=2"></script>
     <script>
         // Set Minimal Tanggal H-1
         const today = new Date();

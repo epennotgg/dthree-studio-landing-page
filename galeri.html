@@ -14,28 +14,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Galeri | Dthree Studio" />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Website resmi Dthree Studio | Palangka Raya" />
-    <title>Galeri | Dthree Studio</title>
+    <title>Galeri Foto | DThree Studio Palangka Raya</title>
+    <meta name="description" content="Lihat galeri foto wisuda, pre-wedding, keluarga, dan studio profesional di DThree Studio Palangka Raya. Sentuh untuk memperbesar.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dthreestudio.net/galeri">
+
+    <meta property="og:url" content="https://dthreestudio.net/galeri">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Galeri Foto | DThree Studio Palangka Raya">
+    <meta property="og:description" content="Lihat galeri foto wisuda, pre-wedding, keluarga, dan studio profesional di DThree Studio Palangka Raya.">
+    <meta property="og:image" content="https://dthreestudio.net/asset/banner.png">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="dthreestudio.net">
+    <meta property="twitter:url" content="https://dthreestudio.net/galeri">
+    <meta name="twitter:title" content="Galeri Foto | DThree Studio Palangka Raya">
+    <meta name="twitter:description" content="Lihat galeri foto wisuda, pre-wedding, keluarga, dan studio profesional di DThree Studio Palangka Raya.">
+    <meta name="twitter:image" content="https://dthreestudio.net/asset/banner.png">
+
+    <meta name="theme-color" content="#634832">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="styleG.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="asset/icont.jpg" type="image/x-icon">
 </head>
 <body class="bg-[#FDFBF7] text-[#4A3728]" onload="renderGallery()">
     <div id="menu-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden transition-opacity duration-300 opacity-0"></div>
-    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-extrabold tracking-tighter text-[#634832]">DTHREE STUDIO</a>
+    
+    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]" id="main-header">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center" aria-label="Main navigation">
+            <a href="/" class="text-2xl font-extrabold tracking-tighter" style="color: #634832;" id="nav-logo">DTHREE STUDIO</a>
             
-            <div class="hidden md:flex space-x-8 font-semibold text-[#826A56]">
-                <a href="pricelist" class="hover:text-[#634832] transition">Price List</a>
-                <a href="galeri" class="hover:text-[#634832] transition border-b-2 border-[#634832]">Gallery</a>
-                <a href="#contact" class="hover:text-[#634832] transition">Kontak</a>
+            <div class="hidden md:flex space-x-8 font-semibold" id="nav-links">
+                <a href="pricelist" class="nav-link transition" style="color: #634832;">Price List</a>
+                <a href="galeri" class="nav-link active transition" style="color: #634832;">Gallery</a>
+                <a href="#contact" class="nav-link transition" style="color: #634832;">Kontak</a>
             </div>
 
-            <button id="menu-btn" class="md:hidden text-[#634832] text-2xl focus:outline-none transition-transform duration-300">
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none transition-transform duration-300" style="color: #634832;" aria-label="Toggle navigation menu">
                 <i id="menu-icon" class="fa-solid fa-bars"></i>
             </button>
         </nav>
@@ -46,35 +68,36 @@
             <a href="#contact" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Kontak</a>
             <hr class="border-[#EADDCA]">
             <div class="flex space-x-4 pt-2">
-                <a href="https://instagram.com/dthree_studio" class="text-[#826A56]"><i class="fa-brands fa-instagram text-xl"></i></a>
-                <a href="https://wa.me/6281322699098" class="text-[#826A56]"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="Instagram"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp text-xl"></i></a>
             </div>
         </div>
     </header>
 
-    <section class="pt-32 pb-12 bg-[#F5EFE6] text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3">Galeri Studio</h2>
-        <p class="text-[#826A56] italic px-6">Sentuh untuk memperbesar. Geser (swipe) atau gunakan panah untuk navigasi.</p>
+    <main>
+    <section class="page-header pt-32 pb-12 bg-[#F5EFE6] text-center grain-overlay relative">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3 relative z-10">Galeri Studio</h1>
+        <p class="text-[#826A56] italic px-6 relative z-10">Sentuh untuk memperbesar. Geser (swipe) atau gunakan panah untuk navigasi.</p>
     </section>
 
-    <section class="py-12 container mx-auto px-4">
+    <section class="py-12 container mx-auto px-4" data-animate="fade-up">
         <div class="masonry-grid" id="gallery-wrapper"></div>
     </section>
 
     <div id="lightbox" class="fixed inset-0 z-[100] bg-[#1a1512]/fb opacity-0 pointer-events-none transition-opacity duration-300 flex items-center justify-center select-none backdrop-blur-sm">
-        <button class="absolute top-6 right-6 text-white/70 text-4xl hover:text-white z-[110]" onclick="closeLightbox()">
+        <button class="absolute top-6 right-6 text-4xl z-[110] transition" style="color: #C19A6B;" onmouseover="this.style.color='#FFFFFF'" onmouseout="this.style.color='#C19A6B'" onclick="closeLightbox()" aria-label="Close lightbox">
             <i class="fa-solid fa-xmark"></i>
         </button>
 
-        <button onclick="prevImg(event)" class="hidden md:block absolute left-8 text-white/50 text-5xl hover:text-white transition-all z-[110]">
+        <button onclick="prevImg(event)" class="hidden md:block absolute left-8 text-white/50 text-5xl hover:text-white transition-all z-[110]" aria-label="Previous image">
             <i class="fa-solid fa-chevron-left"></i>
         </button>
-        <button onclick="nextImg(event)" class="hidden md:block absolute right-8 text-white/50 text-5xl hover:text-white transition-all z-[110]">
+        <button onclick="nextImg(event)" class="hidden md:block absolute right-8 text-white/50 text-5xl hover:text-white transition-all z-[110]" aria-label="Next image">
             <i class="fa-solid fa-chevron-right"></i>
         </button>
         
         <div id="lightbox-wrapper" class="w-full h-full flex items-center justify-center overflow-auto no-scrollbar p-4">
-            <img id="lightbox-img" src="" class="max-h-[85vh] max-w-[95vw] rounded-2xl shadow-2xl object-contain cursor-zoom-in" onclick="toggleZoom(event)">
+            <img id="lightbox-img" src="" alt="Foto galeri DThree Studio diperbesar" class="max-h-[85vh] max-w-[95vw] rounded-2xl shadow-2xl object-contain cursor-zoom-in" onclick="toggleZoom(event)">
         </div>
 
         <div class="absolute bottom-10 text-white/30 text-xs md:hidden tracking-widest uppercase">
@@ -83,35 +106,35 @@
     </div>
 
     <section id="price" class="py-24 text-center bg-white">
-        <h3 class="text-3xl font-bold text-[#634832] mb-8">Abadikan Momen Anda</h3>
-        <div class="flex flex-wrap justify-center gap-6 px-6">
-            <a href="pricelist"><button class="bg-[#F5EFE6] text-[#634832] px-12 py-5 rounded-full font-extrabold hover:bg-[#EADDCA] transition shadow-md w-full md:w-auto uppercase tracking-widest">Lihat Harga</button></a>
-            <a href="booking"><button class="bg-[#634832] text-white px-12 py-5 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase">Booking Sekarang</button></a>
+        <h2 class="text-3xl font-bold text-[#634832] mb-8" data-animate="fade-up">Abadikan Momen Anda</h2>
+        <div class="flex flex-wrap justify-center gap-6 px-6" data-animate="stagger">
+            <a href="pricelist"><button class="magnetic-btn bg-[#F5EFE6] text-[#634832] px-12 py-5 rounded-full font-extrabold hover:bg-[#EADDCA] transition shadow-md w-full md:w-auto uppercase tracking-widest">Lihat Harga</button></a>
+            <a href="booking"><button class="magnetic-btn bg-[#634832] text-white px-12 py-5 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase">Booking Sekarang</button></a>
         </div>
     </section>
 
     <section id="contact" class="py-24 bg-[#FDFBF7]">
     <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         
-        <div>
-            <h3 class="text-4xl font-extrabold text-[#634832] mb-8">Hubungi Kami</h3>
+        <div data-animate="slide-left">
+            <h2 class="text-4xl font-extrabold text-[#634832] mb-8">Hubungi Kami</h2>
             <div class="space-y-6">
-                <a href="https://wa.me/6281322699098" class="flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Chat WhatsApp CS 1">
                     <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span class="font-bold text-xl">WhatsApp CS 1</span>
                 </a>
-                <a href="https://wa.me/6282352059520" class="flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://wa.me/6282352059520" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Chat WhatsApp CS 2">
                     <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span class="font-bold text-xl">WhatsApp CS 2</span>
                 </a>
-                <a href="https://instagram.com/dthree_studio" class="flex items-center space-x-6 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Instagram DThree Studio">
                     <i class="fa-brands fa-instagram text-3xl"></i>
                     <span class="font-bold text-xl">Instagram @dthree_studio</span>
                 </a>
             </div>
         </div>
 
-        <div>
+        <div data-animate="slide-right">
             <div class="mb-6 text-center md:text-left">
                 <h3 class="text-2xl font-extrabold text-[#634832] mb-1">Lokasi Studio Kami</h3>
                 <p class="text-[#826A56] font-medium italic">Buka setiap hari dari jam 07.30 - 20.30</p>
@@ -119,28 +142,31 @@
             <div class="h-80 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
                 <iframe 
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=DTHREE%20FOTO%20STUDIO%2C%20Jalan%20Rajawali%2C%20Palangka%2C%20Palangka%20Raya%20City%2C%20Central%20Kalimantan%2C%20Indonesia&maptype=roadmap" 
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Lokasi DThree Studio di Google Maps">
                 </iframe>
             </div>
             <div class="flex flex-col md:flex-row gap-4 m-4 justify-center">
-            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"><button class="bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
+            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><button class="magnetic-btn bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
             </div>
         </div>
 
     </div>
     </section>
+    </main>
 
     <footer class="py-12 border-t border-[#EADDCA] bg-white">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 text-[#826A56]">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0" style="color: #826A56;">
             <p class="font-bold tracking-widest text-sm uppercase">© 2026 Dthree Studio Palangka Raya</p>
             <div class="flex space-x-8">
-                <a href="https://instagram.com/dthree_studio" class="hover:text-[#634832] text-2xl transition"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/6281322699098" class="hover:text-[#25D366] text-2xl transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="text-2xl transition" style="color: #826A56;" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="text-2xl transition" style="color: #826A56;" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="animations.js?v=2"></script>
 </body>
 </html>

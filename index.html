@@ -14,28 +14,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Dthree Studio | Studio Foto Palangka Raya" />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Website resmi Dthree Studio | Palangka Raya" />
-    <title>Dthree Studio | Studio Foto Palangka Raya</title>
+    <title>DThree Studio | Studio Foto Terbesar di Palangka Raya</title>
+    <meta name="description" content="DThree Studio — studio foto terbesar di Palangka Raya. Jasa foto wisuda, pre-wedding, keluarga, dan dokumentasi acara profesional. Booking online sekarang!">
+    <meta name="keywords" content="studio foto Palangka Raya, foto wisuda, pre-wedding, DThree Studio, jasa fotografi, studio foto profesional">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dthreestudio.net/">
+
+    <meta property="og:url" content="https://dthreestudio.net/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DThree Studio | Studio Foto Terbesar di Palangka Raya">
+    <meta property="og:description" content="DThree Studio — studio foto terbesar di Palangka Raya. Jasa foto wisuda, pre-wedding, keluarga, dan dokumentasi acara profesional.">
+    <meta property="og:image" content="https://dthreestudio.net/asset/banner.png">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="dthreestudio.net">
+    <meta property="twitter:url" content="https://dthreestudio.net/">
+    <meta name="twitter:title" content="DThree Studio | Studio Foto Terbesar di Palangka Raya">
+    <meta name="twitter:description" content="DThree Studio — studio foto terbesar di Palangka Raya. Jasa foto wisuda, pre-wedding, keluarga, dan dokumentasi acara profesional.">
+    <meta name="twitter:image" content="https://dthreestudio.net/asset/banner.png">
+
+    <meta name="theme-color" content="#634832">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="styleG.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="asset/icont.jpg" type="image/x-icon">
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "DThree Studio",
+        "alternateName": "DThree Foto Studio",
+        "description": "Studio foto terbesar di Palangka Raya. Jasa foto wisuda, pre-wedding, keluarga, dan dokumentasi acara profesional.",
+        "url": "https://dthreestudio.net",
+        "telephone": "+6281322699098",
+        "image": "https://dthreestudio.net/asset/banner.png",
+        "logo": "https://dthreestudio.net/asset/icont.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jalan Rajawali",
+            "addressLocality": "Palangka Raya",
+            "addressRegion": "Kalimantan Tengah",
+            "addressCountry": "ID"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -2.1887494,
+            "longitude": 113.8901679
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "07:30",
+            "closes": "20:30"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "150",
+            "bestRating": "5"
+        },
+        "priceRange": "Rp 250.000 - Rp 4.250.000",
+        "sameAs": [
+            "https://instagram.com/dthree_studio"
+        ]
+    }
+    </script>
 </head>
 <body class="bg-[#FDFBF7] text-[#4A3728]">
     <div id="menu-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden transition-opacity duration-300 opacity-0"></div>
-    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-extrabold tracking-tighter text-[#634832]">DTHREE STUDIO</a>
+    
+    <!-- ── Premium Navigation ──────────────────── -->
+    <header class="fixed w-full z-50 bg-transparent border-b border-white/10" id="main-header">
+        <nav class="container mx-auto px-6 py-5 flex justify-between items-center" aria-label="Main navigation">
+            <a href="/" class="text-2xl font-extrabold tracking-tighter drop-shadow-sm" style="color: #FFFFFF;" id="nav-logo">DTHREE STUDIO</a>
             
-            <div class="hidden md:flex space-x-8 font-semibold text-[#826A56]">
-                <a href="pricelist" class="hover:text-[#634832] transition">Price List</a>
-                <a href="galeri" class="hover:text-[#634832] transition">Gallery</a>
-                <a href="#contact" class="hover:text-[#634832] transition">Kontak</a>
+            <div class="hidden md:flex space-x-8 font-semibold" id="nav-links">
+                <a href="pricelist" class="nav-link transition" style="color: #FFFFFF;">Price List</a>
+                <a href="galeri" class="nav-link transition" style="color: #FFFFFF;">Gallery</a>
+                <a href="#contact" class="nav-link transition" style="color: #FFFFFF;">Kontak</a>
             </div>
 
-            <button id="menu-btn" class="md:hidden text-[#634832] text-2xl focus:outline-none transition-transform duration-300">
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none transition-transform duration-300" style="color: #FFFFFF;" aria-label="Toggle navigation menu">
                 <i id="menu-icon" class="fa-solid fa-bars"></i>
             </button>
         </nav>
@@ -46,128 +114,161 @@
             <a href="#contact" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Kontak</a>
             <hr class="border-[#EADDCA]">
             <div class="flex space-x-4 pt-2">
-                <a href="https://instagram.com/dthree_studio" class="text-[#826A56]"><i class="fa-brands fa-instagram text-xl"></i></a>
-                <a href="https://wa.me/6281322699098" class="text-[#826A56]"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="Instagram DThree Studio"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="WhatsApp DThree Studio"><i class="fa-brands fa-whatsapp text-xl"></i></a>
             </div>
         </div>
     </header>
 
-    <section class="relative h-screen flex items-center justify-center text-center text-white">
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&q=80&w=2000" alt="Landscape" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-[#4A3728]/60"></div>
+    <main>
+    <!-- ── Premium Hero Section ──────────────────── -->
+    <section class="hero-section relative h-screen flex items-center justify-center text-center text-white grain-overlay">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&q=80&w=2000" alt="Interior studio foto profesional DThree Studio Palangka Raya" class="hero-bg-img w-full h-full object-cover">
         </div>
+        <!-- Cinematic Gradient Overlay -->
+        <div class="hero-overlay absolute inset-0 z-[1]"></div>
+        <!-- Vignette -->
+        <div class="hero-vignette absolute inset-0 z-[1]"></div>
         
-        <div class="relative z-10 px-4">
-            <h2 class="text-4xl md:text-7xl font-extrabold mb-4 uppercase tracking-tight">Studio Foto Terbesar <br>di Palangka Raya</h2>
-            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-[#FDFBF7]/90">
+        <div class="hero-content relative z-10 px-6 max-w-4xl mx-auto">
+
+            
+            <!-- Gold accent line -->
+            <div class="hero-accent mb-8"></div>
+            
+            <!-- Main heading — clear white text -->
+            <h1 class="hero-title text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold mb-6 uppercase tracking-tight hero-heading">
+                Studio Foto Terbesar <br>di Palangka Raya
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="hero-subtitle text-base md:text-xl mb-10 max-w-2xl mx-auto hero-subtext">
                 Abadikan momen berhargamu dengan sentuhan profesional dalam nuansa studio yang hangat dan estetik.
             </p>
-            <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#gallery" class="bg-[#826A56] hover:bg-[#634832] px-10 py-4 rounded-full font-bold transition shadow-lg">Lihat Galeri</a>
-                <a href="pricelist" class="bg-[#FDFBF7] text-[#634832] hover:bg-[#EADDCA] px-10 py-4 rounded-full font-bold transition shadow-lg">Lihat Paket</a>
+            
+            <!-- CTAs -->
+            <div class="hero-ctas flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#gallery" class="hero-cta-primary px-10 py-4 rounded-full font-bold text-sm uppercase tracking-wider">Lihat Galeri</a>
+                <a href="pricelist" class="hero-cta-secondary px-10 py-4 rounded-full font-bold text-sm uppercase tracking-wider">Lihat Paket</a>
             </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator flex flex-col items-center gap-2" style="position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); z-index: 10;">
+            <span style="color: rgba(255,255,255,0.4); font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em;">Scroll</span>
+            <i class="fa-solid fa-chevron-down" style="color: rgba(255,255,255,0.4); font-size: 14px;"></i>
         </div>
     </section>
 
+    <!-- ── Gallery Section ─────────────────────── -->
     <section id="gallery" class="py-24 container mx-auto px-6">
-        <div class="text-center mb-16">
-            <h3 class="text-3xl font-bold text-[#634832]">Top 3 Galeri Studio</h3>
-            <div class="w-24 h-1 bg-[#C19A6B] mx-auto mt-4"></div>
+        <div class="text-center mb-16" data-animate="fade-up">
+            <h2 class="text-3xl font-bold text-[#634832]">Top 3 Galeri Studio</h2>
+            <div class="w-24 h-1 bg-[#C19A6B] mx-auto mt-4 section-divider"></div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div class="group overflow-hidden rounded-2xl shadow-xl border-4 border-[#FDFBF7]">
-                <img src="asset/Galeri1.jpg" class="w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12" data-animate="stagger">
+            <div class="gallery-card tilt-card group overflow-hidden rounded-2xl shadow-xl border-4 border-[#FDFBF7]">
+                <img src="asset/Galeri1.jpg" alt="Foto wisuda profesional di DThree Studio Palangka Raya" class="w-full h-96 object-cover group-hover:scale-110 transition duration-700" loading="lazy" decoding="async">
+                <div class="gallery-overlay"><span>Foto Wisuda</span></div>
                 <div class="p-6 bg-white text-center">
                     <p class="font-bold text-[#634832]">Foto Wisuda</p>
                 </div>
             </div>
-            <div class="group overflow-hidden rounded-2xl shadow-xl border-4 border-[#FDFBF7]">
-                <img src="asset/Galeri4.jpg" class="w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+            <div class="gallery-card tilt-card group overflow-hidden rounded-2xl shadow-xl border-4 border-[#FDFBF7]">
+                <img src="asset/Galeri4.jpg" alt="Foto pre-wedding romantis di DThree Studio Palangka Raya" class="w-full h-96 object-cover group-hover:scale-110 transition duration-700" loading="lazy" decoding="async">
+                <div class="gallery-overlay"><span>Foto Pre-Wedding</span></div>
                 <div class="p-6 bg-white text-center">
                     <p class="font-bold text-[#634832]">Foto Pre-Wedding</p>
                 </div>
             </div>
-            <div class="group overflow-hidden rounded-2xl shadow-xl border-4 border-[#FDFBF7]">
-                <img src="asset/Galeri5.jpg" class="w-full h-96 object-cover group-hover:scale-110 transition duration-700">
+            <div class="gallery-card tilt-card group overflow-hidden rounded-2xl shadow-xl border-4 border-[#FDFBF7]">
+                <img src="asset/Galeri5.jpg" alt="Foto keluarga hangat di DThree Studio Palangka Raya" class="w-full h-96 object-cover group-hover:scale-110 transition duration-700" loading="lazy" decoding="async">
+                <div class="gallery-overlay"><span>Foto Keluarga</span></div>
                 <div class="p-6 bg-white text-center">
                     <p class="font-bold text-[#634832]">Foto Keluarga</p>
                 </div>
             </div>
         </div>
-        <div class="text-center">
+        <div class="text-center" data-animate="scale">
             <a href="galeri">
-            <button class="bg-transparent border-2 border-[#826A56] text-[#826A56] px-12 py-3 rounded-full font-bold hover:bg-[#826A56] hover:text-white transition">Lihat Semua Galeri</button>
+            <button class="magnetic-btn bg-transparent border-2 border-[#826A56] text-[#826A56] px-12 py-3 rounded-full font-bold hover:bg-[#826A56] hover:text-white transition">Lihat Semua Galeri</button>
             </a>
         </div>
     </section>
 
+    <!-- ── Testimonials Section ────────────────── -->
     <section class="bg-[#F5EFE6] py-24">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
-                <h3 class="text-5xl font-extrabold text-[#634832] mb-2">Overall ⭐4.8</h3>
+            <div class="text-center mb-16" data-animate="fade-up">
+                <h2 class="text-5xl font-extrabold text-[#634832] mb-2">Overall ⭐<span data-counter="4.8">0</span></h2>
                 <p class="text-[#826A56] font-medium italic">Cerita dari pelanggan setia Dthree Studio</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-                <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]">
-                    <img src="asset/default.png" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]">
-                    <h4 class="font-bold text-center text-[#634832] text-sm">Kingdom Alams</h4>
-                    <p class="text-xs text-[#826A56] text-center italic mt-2">"Rekomended Studio Foto, Petugasnya ramah, harga bersahabat, dan hasil nya memuaskan."</p>
-                </div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]">
-                    <img src="asset/default.png" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]">
-                    <h4 class="font-bold text-center text-[#634832] text-sm">Pasha Ramadhan</h4>
-                    <p class="text-xs text-[#826A56] text-center italic mt-2">"Pelayanan terbaik ramah dan tercepat di seluruh palangkaraya mau pun di luar kota"</p>
-                </div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]">
-                    <img src="asset/default.png" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]">
-                    <h4 class="font-bold text-center text-[#634832] text-sm">Bobby Rahmansyah</h4>
-                    <p class="text-xs text-[#826A56] text-center italic mt-2">"Pelayanannya bagus, hasil bagus dan cepat "</p>
-                </div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]">
-                    <img src="asset/default.png" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]">
-                    <h4 class="font-bold text-center text-[#634832] text-sm">Yulika Kristiana</h4>
-                    <p class="text-xs text-[#826A56] text-center italic mt-2">"Good banget, nikahan sama prewedding disini jadi aman"</p>
-                </div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]">
-                    <img src="asset/default.png" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]">
-                    <h4 class="font-bold text-center text-[#634832] text-sm">Yusmice Hatniaty</h4>
-                    <p class="text-xs text-[#826A56] text-center italic mt-2">"Pelayanan cepat, harga murah, ramah lagi"</p>
+            <div class="testimonial-container">
+                <div class="testimonial-track">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]" style="min-width: 280px;">
+                        <img src="asset/default.png" alt="Foto profil pelanggan Kingdom Alams" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]" loading="lazy" decoding="async">
+                        <h3 class="font-bold text-center text-[#634832] text-sm">Kingdom Alams</h3>
+                        <p class="text-xs text-[#826A56] text-center italic mt-2">"Rekomended Studio Foto, Petugasnya ramah, harga bersahabat, dan hasil nya memuaskan."</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]" style="min-width: 280px;">
+                        <img src="asset/default.png" alt="Foto profil pelanggan Pasha Ramadhan" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]" loading="lazy" decoding="async">
+                        <h3 class="font-bold text-center text-[#634832] text-sm">Pasha Ramadhan</h3>
+                        <p class="text-xs text-[#826A56] text-center italic mt-2">"Pelayanan terbaik ramah dan tercepat di seluruh palangkaraya mau pun di luar kota"</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]" style="min-width: 280px;">
+                        <img src="asset/default.png" alt="Foto profil pelanggan Bobby Rahmansyah" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]" loading="lazy" decoding="async">
+                        <h3 class="font-bold text-center text-[#634832] text-sm">Bobby Rahmansyah</h3>
+                        <p class="text-xs text-[#826A56] text-center italic mt-2">"Pelayanannya bagus, hasil bagus dan cepat "</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]" style="min-width: 280px;">
+                        <img src="asset/default.png" alt="Foto profil pelanggan Yulika Kristiana" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]" loading="lazy" decoding="async">
+                        <h3 class="font-bold text-center text-[#634832] text-sm">Yulika Kristiana</h3>
+                        <p class="text-xs text-[#826A56] text-center italic mt-2">"Good banget, nikahan sama prewedding disini jadi aman"</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border-b-4 border-[#C19A6B]" style="min-width: 280px;">
+                        <img src="asset/default.png" alt="Foto profil pelanggan Yusmice Hatniaty" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-[#EADDCA]" loading="lazy" decoding="async">
+                        <h3 class="font-bold text-center text-[#634832] text-sm">Yusmice Hatniaty</h3>
+                        <p class="text-xs text-[#826A56] text-center italic mt-2">"Pelayanan cepat, harga murah, ramah lagi"</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- ── CTA Section ─────────────────────────── -->
     <section id="price" class="py-24 text-center bg-white">
-        <h3 class="text-3xl font-bold text-[#634832] mb-8 uppercase tracking-widest">Abadikan Momen Anda</h3>
-        <div class="flex flex-wrap justify-center gap-6">
-            <a href="pricelist"><button class="bg-[#F5EFE6] text-[#634832] px-12 py-5 rounded-full font-extrabold hover:bg-[#EADDCA] transition shadow-md">LIHAT HARGA</button></a>
-            <a href="booking"><button class="bg-[#634832] text-white px-12 py-5 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider">BOOKING SEKARANG</button></a>
+        <h2 class="text-3xl font-bold text-[#634832] mb-8 uppercase tracking-widest" data-animate="fade-up">Abadikan Momen Anda</h2>
+        <div class="flex flex-wrap justify-center gap-6" data-animate="stagger">
+            <a href="pricelist"><button class="magnetic-btn bg-[#F5EFE6] text-[#634832] px-12 py-5 rounded-full font-extrabold hover:bg-[#EADDCA] transition shadow-md">LIHAT HARGA</button></a>
+            <a href="booking"><button class="magnetic-btn bg-[#634832] text-white px-12 py-5 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider">BOOKING SEKARANG</button></a>
         </div>
     </section>
 
+    <!-- ── Contact Section ─────────────────────── -->
     <section id="contact" class="py-24 bg-[#FDFBF7]">
     <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         
-        <div>
-            <h3 class="text-4xl font-extrabold text-[#634832] mb-8">Hubungi Kami</h3>
+        <div data-animate="slide-left">
+            <h2 class="text-4xl font-extrabold text-[#634832] mb-8">Hubungi Kami</h2>
             <div class="space-y-6">
-                <a href="https://wa.me/6281322699098" class="flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Chat WhatsApp CS 1">
                     <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span class="font-bold text-xl">WhatsApp CS 1</span>
                 </a>
-                <a href="https://wa.me/6282352059520" class="flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://wa.me/6282352059520" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-[#25D366] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Chat WhatsApp CS 2">
                     <i class="fa-brands fa-whatsapp text-3xl"></i>
                     <span class="font-bold text-xl">WhatsApp CS 2</span>
                 </a>
-                <a href="https://instagram.com/dthree_studio" class="flex items-center space-x-6 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-5 rounded-2xl hover:scale-105 transition transform">
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="magnetic-btn flex items-center space-x-6 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white p-5 rounded-2xl hover:scale-105 transition transform" aria-label="Instagram DThree Studio">
                     <i class="fa-brands fa-instagram text-3xl"></i>
                     <span class="font-bold text-xl">Instagram @dthree_studio</span>
                 </a>
             </div>
         </div>
 
-        <div>
+        <div data-animate="slide-right">
             <div class="mb-6 text-center md:text-left">
                 <h3 class="text-2xl font-extrabold text-[#634832] mb-1">Lokasi Studio Kami</h3>
                 <p class="text-[#826A56] font-medium italic">Buka setiap hari dari jam 07.30 - 20.30</p>
@@ -175,27 +276,33 @@
             <div class="h-80 rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
                 <iframe 
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=DTHREE%20FOTO%20STUDIO%2C%20Jalan%20Rajawali%2C%20Palangka%2C%20Palangka%20Raya%20City%2C%20Central%20Kalimantan%2C%20Indonesia&maptype=roadmap" 
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Lokasi DThree Studio di Google Maps">
                 </iframe>
             </div>
             <div class="flex flex-col md:flex-row gap-4 m-4 justify-center">
-            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"><button class="bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
+            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><button class="magnetic-btn bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
             </div>
         </div>
 
     </div>
     </section>
+    </main>
 
+    <!-- ── Footer ──────────────────────────────── -->
     <footer class="py-12 border-t border-[#EADDCA] bg-white">
         <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 text-[#826A56]">
             <p class="font-bold tracking-widest text-sm uppercase">© 2026 Dthree Studio Palangka Raya</p>
             <div class="flex space-x-8">
-                <a href="https://instagram.com/dthree_studio" class="hover:text-[#634832] text-2xl transition"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/6281322699098" class="hover:text-[#25D366] text-2xl transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="hover:text-[#634832] text-2xl transition" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="hover:text-[#25D366] text-2xl transition" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
     </footer>
 
+    <!-- ── Scripts ─────────────────────────────── -->
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="animations.js?v=2"></script>
 </body>
 </html>

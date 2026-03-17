@@ -1,0 +1,65 @@
+<!--
+        _     _            _____     _          _ _    
+  /\  /(_) __| |_   _ _ __/__   \___| | ___ __ (_) | __
+ / /_/ / |/ _` | | | | '_ \ / /\/ _ \ |/ / '_ \| | |/ /
+/ __  /| | (_| | |_| | |_) / / |  __/   <| | | | |   < 
+\/ /_/ |_|\__,_|\__,_| .__/\/   \___|_|\_\_| |_|_|_|\_\
+                     |_|                               
+
+                Dibuat oleh TeknikBaik
+-->
+
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="404 | Dthree Studio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Website resmi Dthree Studio | Palangka Raya" />
+    <title>Halaman tidak ditemukan | Dthree Studio</title>
+    <link rel="stylesheet" href="../styleG.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel=stylesheet href="../style.css">
+    <link rel="shortcut icon" href="../asset/icont.jpg" type="image/x-icon">
+</head>
+<body class="bg-[#FDFBF7] text-[#4A3728]">
+    <div id="menu-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden transition-opacity duration-300 opacity-0"></div>
+    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="../" class="text-2xl font-extrabold tracking-tighter text-[#634832]">DTHREE STUDIO</a>
+            
+            <div class="hidden md:flex space-x-8 font-semibold text-[#826A56]">
+                <a href="../pricelist" class="hover:text-[#634832] transition">Price List</a>
+                <a href="../galeri" class="hover:text-[#634832] transition">Gallery</a>
+                <a href="../#contact" class="hover:text-[#634832] transition">Kontak</a>
+            </div>
+
+            <button id="menu-btn" class="md:hidden text-[#634832] text-2xl focus:outline-none transition-transform duration-300">
+                <i id="menu-icon" class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile-menu" class="absolute top-full left-0 w-full bg-[#FDFBF7] border-t border-[#EADDCA] px-6 py-6 space-y-4 shadow-xl opacity-0 -translate-y-4 pointer-events-none transition-all duration-300 ease-in-out">
+            <a href="../pricelist" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Price List</a>
+            <a href="../galeri" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Gallery</a>
+            <a href="../#contact" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Kontak</a>
+            <hr class="border-[#EADDCA]">
+            <div class="flex space-x-4 pt-2">
+                <a href="https://instagram.com/dthree_studio" class="text-[#826A56]"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="https://wa.me/6281322699098" class="text-[#826A56]"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-12 bg-[#F5EFE6] text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3">404</h2>
+        <p class="text-[#826A56] italic mb-6 px-6">Yah, halaman tidak ditemukan.</p>
+        <div class="flex flex-wrap justify-center gap-6 mb-6">
+            <a href="../" class="bg-[#826A56] text-white hover:bg-[#634832] px-10 py-4 rounded-full font-bold transition shadow-lg">Kembali ke Beranda</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

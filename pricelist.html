@@ -14,28 +14,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Price List | Dthree Studio" />
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Website resmi Dthree Studio | Palangka Raya" />
-    <title>Price List | Dthree Studio</title>
+    <title>Daftar Harga Paket Foto | DThree Studio Palangka Raya</title>
+    <meta name="description" content="Cek daftar harga paket foto keluarga, pre-wedding, outdoor, dan sewa acara di DThree Studio Palangka Raya mulai Rp 250.000. Pilih paket sesuai kebutuhanmu!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dthreestudio.net/pricelist">
+
+    <meta property="og:url" content="https://dthreestudio.net/pricelist">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Daftar Harga Paket Foto | DThree Studio Palangka Raya">
+    <meta property="og:description" content="Cek daftar harga paket foto keluarga, pre-wedding, outdoor, dan sewa acara di DThree Studio Palangka Raya mulai Rp 250.000.">
+    <meta property="og:image" content="https://dthreestudio.net/asset/banner.png">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="dthreestudio.net">
+    <meta property="twitter:url" content="https://dthreestudio.net/pricelist">
+    <meta name="twitter:title" content="Daftar Harga Paket Foto | DThree Studio Palangka Raya">
+    <meta name="twitter:description" content="Cek daftar harga paket foto keluarga, pre-wedding, outdoor, dan sewa acara di DThree Studio Palangka Raya mulai Rp 250.000.">
+    <meta name="twitter:image" content="https://dthreestudio.net/asset/banner.png">
+
+    <meta name="theme-color" content="#634832">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleG.css">
     <link rel="shortcut icon" href="asset/icont.jpg" type="image/x-icon">
+
+    <!-- Structured Data: Product/Service Offers -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "DThree Studio - Paket Foto Profesional",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "DThree Studio",
+            "url": "https://dthreestudio.net"
+        },
+        "areaServed": "Palangka Raya, Kalimantan Tengah",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Paket Foto Studio",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Family/Graduate Indoor",
+                    "priceCurrency": "IDR",
+                    "price": "250000",
+                    "description": "Paket foto keluarga atau wisuda indoor mulai dari 1 background, 3 pose, maks. 5 orang"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Pre-Wedding Indoor",
+                    "priceCurrency": "IDR",
+                    "price": "350000",
+                    "description": "Paket foto pre-wedding indoor mulai dari 1 background, 5 pose, 2 orang"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Studio Outdoor",
+                    "priceCurrency": "IDR",
+                    "price": "1250000",
+                    "description": "Paket foto outdoor dengan 1 fotografer, unlimited shoot, dan unlimited member"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Sewa Acara",
+                    "priceCurrency": "IDR",
+                    "price": "1750000",
+                    "description": "Dokumentasi acara profesional dengan gaya jurnalistik, unlimited shoot"
+                }
+            ]
+        }
+    }
+    </script>
 </head>
 <body class="bg-[#FDFBF7] text-[#4A3728]">
     <div id="menu-overlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 hidden transition-opacity duration-300 opacity-0"></div>
-    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-extrabold tracking-tighter text-[#634832]">DTHREE STUDIO</a>
+    
+    <header class="fixed w-full z-50 bg-[#FDFBF7]/90 backdrop-blur-md shadow-sm border-b border-[#EADDCA]" id="main-header">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center" aria-label="Main navigation">
+            <a href="/" class="text-2xl font-extrabold tracking-tighter" style="color: #634832;" id="nav-logo">DTHREE STUDIO</a>
             
-            <div class="hidden md:flex space-x-8 font-semibold text-[#826A56]">
-                <a href="pricelist" class="hover:text-[#634832] transition border-b-2 border-[#634832]">Price List</a>
-                <a href="galeri" class="hover:text-[#634832] transition">Gallery</a>
-                <a href="#contact" class="hover:text-[#634832] transition">Kontak</a>
+            <div class="hidden md:flex space-x-8 font-semibold" id="nav-links">
+                <a href="pricelist" class="nav-link active transition" style="color: #634832;">Price List</a>
+                <a href="galeri" class="nav-link transition" style="color: #634832;">Gallery</a>
+                <a href="#contact" class="nav-link transition" style="color: #634832;">Kontak</a>
             </div>
 
-            <button id="menu-btn" class="md:hidden text-[#634832] text-2xl focus:outline-none transition-transform duration-300">
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none transition-transform duration-300" style="color: #634832;" aria-label="Toggle navigation menu">
                 <i id="menu-icon" class="fa-solid fa-bars"></i>
             </button>
         </nav>
@@ -46,18 +117,19 @@
             <a href="#contact" class="block font-semibold text-[#826A56] hover:text-[#634832] text-lg">Kontak</a>
             <hr class="border-[#EADDCA]">
             <div class="flex space-x-4 pt-2">
-                <a href="https://instagram.com/dthree_studio" class="text-[#826A56]"><i class="fa-brands fa-instagram text-xl"></i></a>
-                <a href="https://wa.me/6281322699098" class="text-[#826A56]"><i class="fa-brands fa-whatsapp text-xl"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="Instagram"><i class="fa-brands fa-instagram text-xl"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="text-[#826A56]" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp text-xl"></i></a>
             </div>
         </div>
     </header>
 
-    <section class="pt-32 pb-12 bg-[#F5EFE6] text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3">Daftar Harga</h2>
-        <p class="text-[#826A56] italic px-6">Pilih kategori paket yang sesuai dengan kebutuhan momen berhargamu.</p>
+    <main>
+    <section class="page-header pt-32 pb-12 bg-[#F5EFE6] text-center grain-overlay relative">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-[#634832] mb-3 relative z-10">Daftar Harga</h1>
+        <p class="text-[#826A56] italic px-6 relative z-10">Pilih kategori paket yang sesuai dengan kebutuhan momen berhargamu.</p>
     </section>
 
-    <section class="py-12 container mx-auto px-6">
+    <section class="py-12 container mx-auto px-6" data-animate="fade-up">
         <div class="scroll-container-wrapper">
         <div class="flex overflow-x-auto pb-8 gap-5 no-scrollbar snap-x">
             
@@ -65,41 +137,41 @@
                 <div class="w-12 h-12 flex items-center justify-center bg-[#F5EFE6] rounded-2xl mb-6">
                     <i class="fa-solid fa-users text-[#634832] text-xl"></i>
                 </div>
-                <h4 class="font-extrabold text-lg leading-tight text-[#4A3728]">Family/Graduate<br>Indoor</h4>
+                <h2 class="font-extrabold text-lg leading-tight text-[#4A3728]">Family/Graduate<br>Indoor</h2>
             </div>
 
             <div onclick="switchCategory('prewed')" id="cat-prewed" class="snap-center flex-shrink-0 w-64 cursor-pointer border-2 border-transparent bg-white p-10 rounded-[2.5rem] shadow-sm transition-all duration-300 flex flex-col items-start">
                 <div class="w-12 h-12 flex items-center justify-center bg-[#F5EFE6] rounded-2xl mb-6">
                     <i class="fa-solid fa-heart text-[#634832] text-xl"></i>
                 </div>
-                <h4 class="font-extrabold text-lg leading-tight text-[#4A3728]">Pre-Wedding<br>Indoor</h4>
+                <h2 class="font-extrabold text-lg leading-tight text-[#4A3728]">Pre-Wedding<br>Indoor</h2>
             </div>
 
             <div onclick="switchCategory('outdoor')" id="cat-outdoor" class="snap-center flex-shrink-0 w-64 cursor-pointer border-2 border-transparent bg-white p-10 rounded-[2.5rem] shadow-sm transition-all duration-300 flex flex-col items-start">
                 <div class="w-12 h-12 flex items-center justify-center bg-[#F5EFE6] rounded-2xl mb-6">
                     <i class="fa-solid fa-camera-retro text-[#634832] text-xl"></i>
                 </div>
-                <h4 class="font-extrabold text-lg leading-tight text-[#4A3728]">Studio<br>Outdoor</h4>
+                <h2 class="font-extrabold text-lg leading-tight text-[#4A3728]">Studio<br>Outdoor</h2>
             </div>
 
             <div onclick="switchCategory('event')" id="cat-event" class="snap-center flex-shrink-0 w-64 cursor-pointer border-2 border-transparent bg-white p-10 rounded-[2.5rem] shadow-sm transition-all duration-300 flex flex-col items-start">
                 <div class="w-12 h-12 flex items-center justify-center bg-[#F5EFE6] rounded-2xl mb-6">
                     <i class="fa-solid fa-calendar-check text-[#634832] text-xl"></i>
                 </div>
-                <h4 class="font-extrabold text-lg leading-tight text-[#4A3728]">Sewa<br>Acara</h4>
+                <h2 class="font-extrabold text-lg leading-tight text-[#4A3728]">Sewa<br>Acara</h2>
             </div>
             </div>
         </div>
     </section>
 
-    <section class="py-12 container mx-auto px-6">
+    <section class="py-12 container mx-auto px-6" data-animate="fade-up">
         <div id="pricing-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
             </div>
     </section>
 
-    <section class="py-20 bg-[#F5EFE6]">
+    <section class="py-20 bg-[#F5EFE6]" data-animate="fade-up">
         <div class="container mx-auto px-6">
-            <h3 class="text-3xl font-bold text-[#634832] mb-12 text-center">Perbandingan Detail Paket</h3>
+            <h2 class="text-3xl font-bold text-[#634832] mb-12 text-center">Perbandingan Detail Paket</h2>
             <div class="overflow-x-auto bg-white rounded-3xl shadow-sm border border-[#EADDCA]">
                 <table class="w-full text-left border-collapse min-w-[600px]">
                     <thead>
@@ -117,15 +189,15 @@
         </div>
     </section>
 
-    <section class="py-20 text-center bg-white">
-        <h3 class="text-2xl font-bold text-[#634832] mb-6">Tidak ada paket yang dicari?</h3>
+    <section class="py-20 text-center bg-white" data-animate="fade-up">
+        <h2 class="text-2xl font-bold text-[#634832] mb-6">Tidak ada paket yang dicari?</h2>
         <p class="mb-8 text-[#826A56]">Konsultasikan kebutuhan custom kamu langsung dengan tim kami.</p>
-        <div class="flex flex-wrap justify-center gap-4">
-            <a href="https://wa.me/6281322699098" class="bg-[#25D366] text-white px-8 py-4 rounded-full font-bold flex items-center space-x-2 hover:scale-105 transition">
+        <div class="flex flex-wrap justify-center gap-4" data-animate="stagger">
+            <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="magnetic-btn bg-[#25D366] text-white px-8 py-4 rounded-full font-bold flex items-center space-x-2 hover:scale-105 transition" aria-label="Hubungi via WhatsApp">
                 <i class="fa-brands fa-whatsapp text-xl"></i>
                 <span>Hubungi via WhatsApp</span>
             </a>
-            <a href="https://instagram.com/dthree_studio" class="bg-[#833ab4] text-white px-8 py-4 rounded-full font-bold flex items-center space-x-2 hover:scale-105 transition">
+            <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="magnetic-btn bg-[#833ab4] text-white px-8 py-4 rounded-full font-bold flex items-center space-x-2 hover:scale-105 transition" aria-label="DM Instagram">
                 <i class="fa-brands fa-instagram text-xl"></i>
                 <span>DM Instagram</span>
             </a>
@@ -133,31 +205,35 @@
     </section>
 
     <section id="contact" class="py-24 bg-[#FDFBF7]">
-        <div class="container mx-auto px-6">
-            <h3 class="text-4xl font-extrabold text-[#634832] mb-4 text-center">Lokasi Studio Kami</h3>
+        <div class="container mx-auto px-6" data-animate="fade-up">
+            <h2 class="text-4xl font-extrabold text-[#634832] mb-4 text-center">Lokasi Studio Kami</h2>
             <p class="text-[#826A56] font-medium italic text-center mb-8">Buka setiap hari dari jam 07.30 - 20.30</p>
             <div class="h-[450px] rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
                 <iframe 
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=DTHREE%20FOTO%20STUDIO%2C%20Jalan%20Rajawali%2C%20Palangka%2C%20Palangka%20Raya%20City%2C%20Central%20Kalimantan%2C%20Indonesia&maptype=roadmap" 
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Lokasi DThree Studio di Google Maps">
                 </iframe>
             </div>
             <div class="flex flex-col md:flex-row gap-4 m-4 justify-center">
-            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"><button class="bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
+            <a href="https://www.google.com/maps/place/DTHREE+FOTO+STUDIO/@-2.193813,113.8972622,14z/data=!4m6!3m5!1s0x2dfcb3dfa2ff51e5:0x1d5aa275e554c420!8m2!3d-2.1887494!4d113.8901679!16s%2Fg%2F11qqgb0fd6?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><button class="magnetic-btn bg-[#634832] text-white px-10 py-4 rounded-full font-extrabold hover:bg-[#4A3728] shadow-xl shadow-stone-200 transition tracking-wider w-full md:w-auto uppercase text-center">Buka di Google Maps</button></a>
             </div>
         </div>
     </section>
+    </main>
 
     <footer class="py-12 border-t border-[#EADDCA] bg-white">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 text-[#826A56]">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0" style="color: #826A56;">
             <p class="font-bold tracking-widest text-sm uppercase">© 2026 Dthree Studio Palangka Raya</p>
             <div class="flex space-x-8">
-                <a href="https://instagram.com/dthree_studio" class="hover:text-[#634832] text-2xl transition"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/6281322699098" class="hover:text-[#25D366] text-2xl transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/dthree_studio" target="_blank" rel="noopener noreferrer" class="text-2xl transition" style="color: #826A56;" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/6281322699098" target="_blank" rel="noopener noreferrer" class="text-2xl transition" style="color: #826A56;" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="animations.js?v=2"></script>
 </body>
 </html>

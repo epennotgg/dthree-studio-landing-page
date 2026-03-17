@@ -62,6 +62,20 @@ const images = [
     "asset/Galeri5.jpg",
     "asset/Galeri7.jpg",
     "asset/Galeri6.jpg",
+    "asset/Galeri8.jpg",
+    "asset/Galeri9.jpg",
+    "asset/Galeri10.jpg",
+    "asset/Galeri11.jpg",
+    "asset/Galeri12.jpg",
+    "asset/Galeri13.jpg",
+    "asset/Galeri14.jpg",
+    "asset/Galeri15.jpg",
+    "asset/Galeri16.jpg",
+    "asset/Galeri17.jpg",
+    "asset/Galeri18.jpg",
+    "asset/Galeri19.jpg",
+    "asset/Galeri20.jpg",
+    "asset/Galeri21.jpg",
 ];
 // end
 
@@ -166,9 +180,12 @@ const galleryWrapper = document.getElementById('gallery-wrapper');
 
 function renderGallery() {
     galleryWrapper.innerHTML = images.map((src, index) => `
-        <div class="masonry-item group cursor-pointer" onclick="openLightbox(${index})">
+        <div class="masonry-item gallery-card group cursor-pointer" onclick="openLightbox(${index})">
             <img src="${src}" 
-            class="w-full rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-300 border-4 border-white group-hover:scale-[1.02] loading="lazy"">
+            alt="Foto galeri DThree Studio ${index + 1}" 
+            class="w-full rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-300 border-4 border-white group-hover:scale-[1.02]"
+            loading="lazy" decoding="async">
+            <div class="gallery-overlay"><span>Lihat Foto</span></div>
         </div>
     `).join('');
 }
