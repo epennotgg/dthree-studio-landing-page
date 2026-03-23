@@ -125,7 +125,7 @@ function initHero() {
     // CTA buttons
     if (heroCTAs) {
         tl.from(heroCTAs.children, {
-            y: 15, opacity: 0, stagger: 0.1, duration: 0.6
+            y: 15, opacity: 0, stagger: 0.1, duration: 0.6, clearProps: 'all'
         }, '-=0.4');
     }
 
